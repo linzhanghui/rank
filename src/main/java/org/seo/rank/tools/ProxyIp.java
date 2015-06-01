@@ -75,7 +75,7 @@ public class ProxyIp {
     private static final Path PROXY_IPS_FILE = Paths.get("src/main/resources/proxy_ips.txt");
     //自身IP地址
     private static String previousIp = getCurrentIp();
-    //能隐藏自己IP的代理
+    //能隐藏自己IP的代理 test
     private static final Set<String> EXCELLENT_IPS = new ConcurrentSkipListSet<>();
     private static final Set<String> EXCELLENT_USA_IPS = new ConcurrentSkipListSet<>();
     //不能隐藏自己IP的代理
